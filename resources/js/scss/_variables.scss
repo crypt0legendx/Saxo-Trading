@@ -1,0 +1,42 @@
+$disable_page_spinner_bg: white;
+$clock_component_color : #888888;
+
+$formsBodyBgColor: #161616;
+
+$watches_hover : #2b2b2b;
+
+$stock_hover: rgba(255,255,255,0.05);
+$select_bg: #2d2d2d;
+$select_f: #a2a2a2;
+$placeholderbutton_bg : #1b1b1b;
+
+$workspace_bg : rgb(40 40 40);
+$bg : #424242;
+$navbar_menus_bg : #515151;
+$navbar_menus_bg_hover : #515151;
+$topbar_bg: black;
+$topbar_fcolor: gainsboro;
+$topbar_hover_color: #5f5f5f;
+$topbar_secondary_fcolor: #cccccc;
+$topbar_label_fcolor: #989898;
+
+$input_search_stocks_bg: #232323;
+
+$hr_color: #757575;
+
+$flight_color: #a7a7a7;
+
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

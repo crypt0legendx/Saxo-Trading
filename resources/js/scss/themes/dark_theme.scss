@@ -1,0 +1,562 @@
+@import './colors.scss';
+
+/*
+
+This is the default theme for the workspace
+
+*/
+
+//windows topbar components
+
+.topbar-component.select > select{
+    background: #2d2d2d;
+    color: #a2a2a2;
+}
+
+.stock-select-btn {
+    padding:5px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    user-select:none;
+  
+    &:hover {
+      background: $stock_hover;
+    }
+  }
+
+.topbar-component.select {
+    select {
+      &::-webkit-scrollbar-track {
+        background-color: #2e2e2e;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: #727272;
+      }
+    }
+}
+
+//chart
+.tvjs-x-window {
+    background: #1c1c1cef !important;
+
+    .add-win-item-desc {
+        color: #ffffff44 !important;
+    }
+}
+
+
+.disabled-btn {
+    cursor:not-allowed;
+    background: rgb(49,49,49);
+    color: rgb(148,148,148);
+}
+
+.watch.closed, 
+.order-control.closed {
+    user-select:none;
+  
+    .sell-zone, 
+    .buy-zone, 
+    .sell, 
+    .buy {
+      cursor:not-allowed !important;
+      -webkit-filter: grayscale(100%);.stock-select-btn {
+        padding:5px;
+        cursor:pointer;
+        user-select:none;
+      
+        &:hover {
+          background: $stock_hover;
+        }
+      }
+      filter: grayscale(100%);
+    }
+
+    .opensafter {
+        color: #8b8b8b;
+    }
+  }
+
+
+.disable-page {
+    background: black;
+    color: white;
+
+    svg {
+        stroke:white;
+        fill: white;
+    }
+}
+
+.splitter {
+    background: black;
+}
+
+
+//graph
+
+.loadingScreen {
+    .loadingContent {
+      background:black;
+    }
+  
+  
+    .overlay {
+      svg {
+        stroke: white;
+      }
+    }
+  }
+
+.volume-select input {
+    color: #a7a7a7;
+    background: #353535;
+}
+
+.chart-toolbar {
+    .order-control .spread {
+        background: black;
+
+        em {
+            color: #a7a7a7;
+        }
+    }
+
+    .highlighted {
+        color: #c8c8c8 !important;
+        background: rgb(107 107 107 / 25%) !important;
+    }
+}
+/* Dropdown */
+.easy-cm-ul li {
+    background-color: rgb(66, 66, 66);
+    color: rgb(167, 167, 167);
+}
+
+.buttons.veil i {
+    color: #adadad;
+}
+
+.buttons.veil i:hover {
+    color:#c8c8c8;
+    background: rgb(107 107 107 / 25%)
+}
+  
+.chart-toolbar .buttons.veil section i:not(.checked):not(.selected):not(:hover) {
+    background-color: rgb(0 0 0 / 59%);
+}
+
+
+input[type=number] {
+    /*for absolutely positioning spinners*/
+    position: relative; 
+    padding: 5px;
+    padding-right: 25px;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    opacity: .25;
+  }
+
+  input[type=number]::-webkit-outer-spin-button, 
+  input[type=number]::-webkit-inner-spin-button {
+    width: 1.33em;
+    border-left: 1px solid #BBB;
+    position: absolute;
+    top: 0;
+    cursor:pointer;
+    right: 0;
+    bottom: 0;
+  }
+  
+.z1 {
+    color: white !important;
+}
+
+.inst-info {
+    .header {
+      background: #161616;
+    }
+}
+
+
+.window_content {
+    background: #181818 !important
+}
+
+#nlogs-modal {
+.btn-secondary {
+  background: rgb(66, 66, 66);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+
+  }
+}
+}
+
+.order-entry {
+.btn-group {
+    .btn {
+        color: $dark_font_color_v1;
+        background-color: $dark_background_v12;
+    }
+
+    .btn:hover {
+        background-color: $dark_background_v2;
+    }
+
+    .btn.active {
+        background-color: #606060 !important;
+        color: #fff !important;
+    }
+}
+}
+
+#app {
+    .container {
+        .topbar {
+            background-color: $dark_background_v3;
+            color: $dark_font_color_v1;
+
+            .btn-secondary:not(:disabled):not(.disabled):active,
+            .btn-secondary:not(:disabled):not(.disabled).active,
+            .show>.btn-secondary.dropdown-toggle {
+                background: $dark_background_v2;
+            }
+
+            .dropdown-menu {
+                background-color: $dark_background_v2;
+                color: $dark_font_color_v1;
+                border: none !important;
+                box-shadow: rgb(0 0 0 / 45%) 1px 1px 5px 0px !important;
+
+                .dropdown-item {
+                    font-size: 13px !important;
+                }
+
+                hr {
+                    border-color: $dark_background_v8;
+                }
+
+                .dropdown-item:hover,
+                .dropdown-item:active {
+                    color: $dark_font_color_v2;
+                    background: rgba(255, 255, 255, 0.1);
+                }
+
+                * {
+                    color: $dark_font_color_v1;
+                }
+            }
+
+            .lnr-section {
+                .left-section {
+                    .group-item {
+                        span {
+                            &:first-of-type {
+                                color: gray;
+                            }
+
+                            color: $dark_font_color_v2;
+                        }
+                    }
+
+                    .search_stocks_top span>.v-icon {
+                        color: $dark_font_color_v2;
+                    }
+                }
+
+                .right-section {
+                    .b-dropdown .dropdown-toggle {
+                        color: $dark_font_color_v3;
+                    }
+                }
+            }
+        }
+
+        .navbar {
+            background-color: $dark_background_v2;
+            color: $dark_font_color_v1;
+
+            .nav-entry {
+                &:hover {
+                    background: rgba(255, 255, 255, 0.1);
+                }
+
+                &:active {
+                    background: rgba(0, 0, 0, 0.2);
+                }
+
+                .nav-multiple-items {
+                    background-color: $dark_background_v4;
+
+                    .nav-multile-item {
+                        color: $dark_font_color_v1;
+                    }
+
+                    .nav-multiple-item:hover {
+                        background: rgba(255, 255, 255, 0.1);
+                    }
+
+                    .nav-multiple-item:active {
+                        background: rgba(0, 0, 0, 0.2);
+                    }
+                }
+            }
+        }
+
+        #workspace {
+            background-color: $dark_background_workspace;
+
+            .workspace-content {
+                background-color: $dark_background_workspace;
+
+                .window-frame {
+                    background-color: $dark_background_v6;
+
+                    .window-topbar {
+                        background-color: $dark_background_v5;
+
+                        .controls-left,
+                        .controls-right,
+                        .btn-ctrl {
+                            color: $dark_font_color_v1;
+                        }
+
+                        .controls-left,
+                        .controls-right {
+
+                            .act {
+                                background: $dark_background_v14 !important;
+                                color: #000;
+                            }
+
+                            .dropdown .dropdown-toggle,
+                            .dropdown .dropdown-menu .dropdown-item {
+                                color: $dark_font_color_v1;
+                            }
+                        }
+
+                        #clock-timezone-select {
+                            background: $dark_background_v9;
+                            color: $dark_font_color_v4;
+                        }
+
+                        .dropdown-menu {
+                            background-color: $dark_background_v5;
+
+                            .dropdown-item {
+                                color: $dark_font_color_v1;
+                            }
+
+                            .dropdown-menu {
+                                background-color: $dark_background_v5;
+
+                                .dropdown-item {
+                                    color: $dark_font_color_v1;
+                                }
+                            }
+                        }
+                    }
+
+                    .window_content {
+                        background-color: $dark_background_v1;
+                        color: $dark_font_color_v1;
+
+                        .order-entry .watch .watch-body .buy-zone,
+                        .order-entry .watch .watch-body .sell-zone {
+                            background-color: $dark_background_v11;
+                        }
+
+                        .fav-cont .watch .watch-footer .cus-dark-input {
+                            border-radius: 0 !important;
+                            border: 1px solid transparent !important;
+                        }
+
+                        .datatable {
+                            thead th {
+                                border-color: $dark_background_v11;
+
+                                .closeall {
+                                    background-color: #d81720 !important;
+                                    &:hover {
+                                        background-color: #da2b33 !important;
+                                    }
+                                }
+                            }
+
+                            thead th, thead td {
+                                background-color: $dark_background_v1;
+                                color: $dark_font_color_v1;
+                            }
+                        }
+
+                        .container {
+                            color: $dark_font_color_v1;
+
+                            .center-clock {
+                                color: $dark_font_color_v1;
+                            }
+
+                            #news-filter {
+                                #news-select {
+                                    background-color: $dark_background_v11;
+                                    color: $dark_font_color_v3;
+                                }
+                            }
+
+                            #news-data {
+                                .article-component {
+                                    color: $dark_font_color_v3;
+
+                                    .article-details {
+                                        color: $dark_font_color_v5;
+                                    }
+                                }
+                            }
+
+                            .instruments_search {
+                                background-color: $dark_background_v9;
+                                color: $dark_font_color_v4;
+
+                                &:focus,
+                                &:active {
+                                    background-color: $dark_background_v9;
+                                    color: $dark_font_color_v4;
+                                }
+                            }
+
+                            .v-list-item {
+                                background-color: $dark_background_v10;
+                                border-bottom: 1px solid #474747;
+                                color: $dark_font_color_v1;
+
+                                &:focus {
+                                    border-bottom: 1px solid #474747;
+                                }
+
+                                &:hover {
+                                    background: rgba(255, 255, 255, 0.1);
+                                }
+                            }
+
+                            .options {
+                                &:hover {
+                                    background: rgba(255, 255, 255, 0.04);
+                                }
+                            }
+
+                            .btn-group {
+                                .btn {
+                                    color: $dark_font_color_v1;
+                                    background-color: $dark_background_v12;
+                                }
+
+                                .btn:hover {
+                                    background-color: $dark_background_v2;
+                                }
+
+                                .btn.active {
+                                    background-color: #424242 !important;
+                                    color: #fff !important;
+                                }
+                            }
+
+                            .watch {
+                                .watch-topbar {
+                                    color: $dark_font_color_v1;
+                                }
+
+                                .watch-body {
+                                    .sell-zone {
+                                        background-color: #d81720;
+                                        &:hover {
+                                            background-color: #da2b33;
+                                        }
+                                    }
+                                    .buy-zone {
+                                        background-color: #19a337;
+                                        &:hover {
+                                            background-color: #1eb940;
+                                        }
+                                    }
+                                }
+
+                                .cus-dark-input {
+                                    background-color: $dark_background_v11;
+                                    color: $dark_font_color_v1;
+                                }
+
+                                .icon {
+                                    color: $dark_font_color_v1 !important;
+
+                                    &:hover, &:active, &:focus {
+                                        background-color: $dark_background_v2;
+                                    }
+                                }
+
+                                .watch-footer .custom-checkbox {
+                                    color: $dark_font_color_v1;
+                                }
+
+                                /*&:hover {
+                                    background-color: $dark_background_v9;
+                                } */
+                            }
+
+                            .--placeholder {
+                                border: 1px solid $dark_background_v11;
+                                i { color: $dark_font_color_v2; }
+                            }
+
+                            .watch .options:focus,
+                            .watch .options:active {
+                                background-color: transparent;
+                            }
+
+                            div#order-checkbox {
+                                border-top: 1px solid $dark_background_v7;
+                                border-bottom: 1px solid $dark_background_v7;
+                            }
+
+                            .row .col div,
+                            .margin-require-market {
+                                color: $dark_font_color_v1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-dialog {
+        .modal-content {
+            background-color: $dark_background_v1;
+            color: $dark_font_color_v1;
+
+            .modal-header {
+                background-color: $dark_background_v2;
+
+                .modal-title,
+                button.close {
+                    color: $dark_font_color_v3;
+                }
+            }
+        }
+    }
+}
+
+#settings-modal .modal-dialog .modal-content .modal-body {
+    background-color: $dark_background_v6 !important;
+    color: $dark_font_color_v1;
+}

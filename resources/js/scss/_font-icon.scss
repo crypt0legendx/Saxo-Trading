@@ -1,0 +1,631 @@
+@font-face {
+    font-family: icons-font;
+    src: url("~/fonts/icons-font.eot?x1b7ry");
+    src: url("~/fonts/icons-font.eot?x1b7ry#iefix") format("embedded-opentype"),url("~/fonts/icons-font.ttf?x1b7ry") format("truetype"),url("~/fonts/icons-font.woff?x1b7ry") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+.font-icon {
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 5px;
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s;
+  }
+
+.menu-item .menu-item-icon > .font-icon,
+.menu-item-children > .font-icon {
+  padding: 0;
+  color: #a7a7a7;
+}
+
+i {
+    font-family: icons-font!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon_add_inst:before {
+    content: "\E900"
+}
+
+.icon_all_inst:before {
+    content: "\E901"
+}
+
+.icon_chart_template:before {
+    content: "\E902"
+}
+
+.icon_double_click:before {
+    content: "\E903"
+}
+
+.icon_manual_win_btn:before {
+    content: "\E904"
+}
+
+.icon_no_click:before {
+    content: "\E905"
+}
+
+.icon_one_click:before {
+    content: "\E906"
+}
+
+.icon_orders:before {
+    content: "\E907"
+}
+
+.icon_positions:before {
+    content: "\E908"
+}
+
+.icon_ticker:before {
+    content: "\E909"
+}
+
+.icon_unlink_win:before {
+    content: "\E90A"
+}
+
+.icon_workspace_add:before {
+    content: "\E90B"
+}
+
+.icon_workspace_def:before {
+    content: "\E90C"
+}
+
+.icon_zoom_in:before {
+    content: "\E90D"
+}
+
+.icon_zoom_out:before {
+    content: "\E90E"
+}
+
+.icon_zoom_reset:before {
+    content: "\E90F"
+}
+
+.icon_check:before {
+    content: "\E910"
+}
+
+.icon_history:before {
+    content: "\E911"
+}
+
+.icon_lang_el:before {
+    content: "\E912"
+}
+
+.icon_lang_en:before {
+    content: "\E913"
+}
+
+.icon_light_dark_theme:before {
+    content: "\E914"
+}
+
+.icon_lines_fibo_arc-96:before {
+    content: "\E915"
+}
+
+.icon_news:before {
+    content: "\E916"
+}
+
+.icon_notifications:before {
+    content: "\E917"
+}
+
+.icon_order_arrow_buy_limit:before {
+    content: "\E918"
+}
+
+.icon_order_close:before {
+    content: "\E919"
+}
+
+.icon_refresh:before {
+    content: "\E91A"
+}
+
+.icon_settings:before {
+    content: "\E91B"
+}
+
+.icon_watchlists_favorite:before {
+    content: "\E91C"
+}
+
+.icon_watchlists:before {
+    content: "\E91D"
+}
+
+.icon_win_detach:before {
+    content: "\E91E"
+}
+
+.icon_chart_features:before {
+    content: "\E91F"
+}
+
+.icon_crosshair:before {
+    content: "\E920"
+}
+
+.icon_icon_arrow_down:before {
+    content: "\E921"
+}
+
+.icon_icon_arrow_up:before {
+    content: "\E922"
+}
+
+.icon_icon_circle:before {
+    content: "\E923"
+}
+
+.icon_icon_diamond:before {
+    content: "\E924"
+}
+
+.icon_icon_dislike:before {
+    content: "\E925"
+}
+
+.icon_icon_heart:before {
+    content: "\E926"
+}
+
+.icon_icon_pointer:before {
+    content: "\E927"
+}
+
+.icon_icon_square:before {
+    content: "\E928"
+}
+
+.icon_icon_star:before {
+    content: "\E929"
+}
+
+.icon_icon_triangle_down:before {
+    content: "\E92A"
+}
+
+.icon_icon_triangle_up:before {
+    content: "\E92B"
+}
+
+.icon_indicators:before {
+    content: "\E92C"
+}
+
+.icon_licon_like:before {
+    content: "\E92D"
+}
+
+.icon_lines_abcd_pattern:before {
+    content: "\E92E"
+}
+
+.icon_lines_ellipse:before {
+    content: "\E92F"
+}
+
+.icon_lines_fibo_timez:before {
+    content: "\E930"
+}
+
+.icon_lines_hor_market:before {
+    content: "\E931"
+}
+
+.icon_lines_rectangle:before {
+    content: "\E932"
+}
+
+.icon_lines_vert_market:before {
+    content: "\E933"
+}
+
+.icon_order_arrow_buy_stop:before {
+    content: "\E934"
+}
+
+.icon_order_arrow_down:before {
+    content: "\E935"
+}
+
+.icon_order_arrow_sell_limit:before {
+    content: "\E936"
+}
+
+.icon_order_arrow_sell_stop:before {
+    content: "\E937"
+}
+
+.icon_order_arrow_up:before {
+    content: "\E938"
+}
+
+.icon_order_drag_point:before {
+    content: "\E939"
+}
+
+.icon_panning:before {
+    content: "\E93A"
+}
+
+.icon_chart_type_bar:before {
+    content: "\E93B"
+}
+
+.icon_chart_type_candles:before {
+    content: "\E93C"
+}
+
+.icon_chart_type_dots:before {
+    content: "\E93D"
+}
+
+.icon_chart_type_hlc:before {
+    content: "\E93E"
+}
+
+.icon_chart_type_line:before {
+    content: "\E93F"
+}
+
+.icon_colors:before {
+    content: "\E940"
+}
+
+.icon_fundamentals_data:before {
+    content: "\E941"
+}
+
+.icon_lines_equidistant:before {
+    content: "\E942"
+}
+
+.icon_lines_fibo_arc-57:before {
+    content: "\E943"
+}
+
+.icon_lines_fibo_fan:before {
+    content: "\E944"
+}
+
+.icon_lines_pitchfork:before {
+    content: "\E945"
+}
+
+.icon_lines_trend:before {
+    content: "\E946"
+}
+
+.icon_periods_d1:before {
+    content: "\E947"
+}
+
+.icon_periods_h1:before {
+    content: "\E948"
+}
+
+.icon_periods_h2:before {
+    content: "\E949"
+}
+
+.icon_periods_h4:before {
+    content: "\E94A"
+}
+
+.icon_periods_m1:before {
+    content: "\E94B"
+}
+
+.icon_periods_m5:before {
+    content: "\E94C"
+}
+
+.icon_periods_m15:before {
+    content: "\E94D"
+}
+
+.icon_periods_m30:before {
+    content: "\E94E"
+}
+
+.icon_periods_mo1:before {
+    content: "\E94F"
+}
+
+.icon_periods_w1:before {
+    content: "\E950"
+}
+
+.icon_sound_off:before {
+    content: "\E951"
+}
+
+.icon_sound_on:before {
+    content: "\E952"
+}
+
+.icon_analysis_winbar:before {
+    content: "\E953"
+}
+
+.icon_arrow_big_down:before {
+    content: "\E954"
+}
+
+.icon_arrow_big_left:before {
+    content: "\E955"
+}
+
+.icon_arrow_big_right:before {
+    content: "\E956"
+}
+
+.icon_arrow_big_up:before {
+    content: "\E957"
+}
+
+.icon_arrow_small_down:before {
+    content: "\E958"
+}
+
+.icon_arrow_small_left:before {
+    content: "\E959"
+}
+
+.icon_arrow_small_right:before {
+    content: "\E95A"
+}
+
+.icon_arrow_small_up:before {
+    content: "\E95B"
+}
+
+.icon_chart_winbar:before {
+    content: "\E95C"
+}
+
+.icon_economic_calendar:before {
+    content: "\E95D"
+}
+
+.icon_edit_balance:before {
+    content: "\E95E"
+}
+
+.icon_font_size:before {
+    content: "\E95F"
+}
+
+.icon_info:before {
+    content: "\E960"
+}
+
+.icon_insts_list_mode:before {
+    content: "\E961"
+}
+
+.icon_insts_list_winbar:before {
+    content: "\E962"
+}
+
+.icon_insts_tiles_mode:before {
+    content: "\E963"
+}
+
+.icon_insts_tiles_winbar:before {
+    content: "\E964"
+}
+
+.icon_link_win:before {
+    content: "\E965"
+}
+
+.icon_new_chart:before {
+    content: "\E966"
+}
+
+.icon_new_order:before {
+    content: "\E967"
+}
+
+.icon_new_win_btn:before {
+    content: "\E968"
+}
+
+.icon_positions_winbar:before {
+    content: "\E969"
+}
+
+.icon_rearrange_win_btn:before {
+    content: "\E96A"
+}
+
+.icon_search:before {
+    content: "\E96B"
+}
+
+.icon_trader_arrow_big_down:before {
+    content: "\E96C"
+}
+
+.icon_trader_arrow_big_up:before {
+    content: "\E96D"
+}
+
+.icon_trader_arrow_small_down:before {
+    content: "\E96E"
+}
+
+.icon_trader_arrow_small_up:before {
+    content: "\E96F"
+}
+
+.icon_win_close:before {
+    content: "\E970"
+}
+
+.icon_win_max:before {
+    content: "\E971"
+}
+
+.icon_win_min:before {
+    content: "\E972"
+}
+
+.icon_window_menu:before {
+    content: "\E973"
+}
+
+.icon_action_add:before {
+    content: "\E974"
+}
+
+.icon_action_remove:before {
+    content: "\E975"
+}
+
+.icon_clock:before {
+    content: "\E976"
+}
+
+.icon_deposit_withdraw:before {
+    content: "\E977"
+}
+
+.icon_win_resize:before {
+    content: "\E978"
+}
+
+.icon_win_restore:before {
+    content: "\E979"
+}
+
+.icon_drag_point:before {
+    content: "\E97A"
+}
+
+.icon_graph_objects:before {
+    content: "\E97B"
+}
+
+.icon_feedback:before {
+    content: "\E97C"
+}
+
+.icon_positions_orders:before {
+    content: "\E97D"
+}
+
+.icon_help_link:before {
+    content: "\E97E"
+}
+
+.icon_livechat:before {
+    content: "\E97F"
+}
+
+.icon_bell:before {
+    content: "\E980"
+}
+
+.icon_rearrange:before {
+    content: "\E981"
+}
+
+.icon_video:before {
+    content: "\E982"
+}
+
+.icon_whatsnew:before {
+    content: "\E983"
+}
+
+.icon_email:before {
+    content: "\E984"
+}
+
+.icon_profile-icon:before {
+    content: "\E985"
+}
+
+.icon_fibonacci_expansion:before {
+    content: "\E986"
+}
+
+.icon_periods_h22:before {
+    content: "\E987"
+}
+
+.icon_periods_h12:before {
+    content: "\E988"
+}
+
+.icon_periods_m2:before {
+    content: "\E989"
+}
+
+.icon_periods_m3:before {
+    content: "\E98A"
+}
+
+.icon_periods_m4:before {
+    content: "\E98B"
+}
+
+.icon_periods_m10:before {
+    content: "\E98C"
+}
+
+.icon_clock2:before {
+    content: "\E98D"
+}
+
+.icon_lock_open:before {
+    content: "\E98E"
+}
+
+.icon_lock_closed:before {
+    content: "\E98F"
+}
+
+.icon_analysis:before {
+    content: "\E990"
+}
+
+.icon_chart_ha_candles:before {
+    content: "\E991"
+}
+
+.icon_cloud_saved:before {
+    content: "\E992"
+}
+
+.icon_cloud:before {
+    content: "\E993"
+}
+
+.icon_client_positions:before {
+    content: "\E994"
+}

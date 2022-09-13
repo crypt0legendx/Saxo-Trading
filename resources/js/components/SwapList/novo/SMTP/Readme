@@ -1,0 +1,8 @@
+Prerequisites
+
+Make sure that 2-Step-Verification is disabled.
+Turn ON the "Less Secure App" access or click here.
+Unzip the master.zip in your application directory and run following command from your application directory.
+"composer require phpmailer/phpmailer"
+execute the php file
+

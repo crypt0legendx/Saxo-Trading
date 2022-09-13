@@ -1,0 +1,233 @@
+[{
+    "id": 69,
+    "count": 42,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/brokers-news\/",
+    "name": "Brokers News",
+    "slug": "brokers-news",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/69"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=69"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2,
+    "count": 437,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/analysis-and-insight\/",
+    "name": "Crypto Review",
+    "slug": "analysis-and-insight",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/2"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=2"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 4,
+    "count": 4419,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/daily-forex-outlook\/",
+    "name": "Daily Outlook",
+    "slug": "daily-forex-outlook",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/4"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=4"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 3,
+    "count": 532,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/daily-economic-events\/",
+    "name": "Economic Events",
+    "slug": "daily-economic-events",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/3"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=3"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 5,
+    "count": 2168,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/market-snapshots\/",
+    "name": "Market Snapshots",
+    "slug": "market-snapshots",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/5"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=5"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 144,
+    "count": 1,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/notifications\/",
+    "name": "Notifications",
+    "slug": "notifications",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/144"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=144"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 146,
+    "count": 15,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/traders-world\/",
+    "name": "Trader's World",
+    "slug": "traders-world",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/146"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=146"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 138,
+    "count": 0,
+    "description": "",
+    "link": "https:\/\/fxpro.news\/trading-updates\/",
+    "name": "Trading Updates",
+    "slug": "trading-updates",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories\/138"
+        }],
+        "collection": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/categories"
+        }],
+        "about": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/taxonomies\/category"
+        }],
+        "wp:post_type": [{
+            "href": "https:\/\/fxpro.news\/wp-json\/wp\/v2\/posts?categories=138"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}]

@@ -1,0 +1,83 @@
+{
+    "time":[
+       {
+          "text":"1 minute"
+       },
+       {
+          "text":"5 minutes"
+       },
+       {
+          "text":"15 minutes"
+       },
+       {
+          "text":"30 minutes"
+       },
+       {
+          "text":"1 hour"
+       }
+    ],
+    "type":[
+       {
+          "text":"Bar Chart"
+       },
+       {
+          "text":"Candlesticks"
+       },
+       {
+          "text":"Heikin Ashi"
+       },
+       {
+          "text":"HLC Chart"
+       },
+       {
+          "text":"Line Chart"
+       },
+       {
+          "text":"Dots Chart"
+       }
+    ],
+    "drawings":[
+        {
+           "text":"Trendline"
+        },
+        {
+           "text":"Fibonacci Retracement"
+        },
+        {
+           "text":"Fibonacci Fan"
+        },
+        {
+           "text":"Fibonacci Arc"
+        },
+        {
+           "text":"Fibonacci Timezone"
+        },
+        {
+            "text":"Vertical Marker"
+        },
+        {
+            "text":"Horizontal Marker"
+        },
+        {
+            "text":"Rectangle"
+        },
+        {
+            "text":"Ellipse"
+        },
+        {
+            "text":"ABCD Pattern"
+        }
+     ],
+
+     "indicators":[
+      {
+         "text":"Price Range"
+      },
+      {
+         "text":"Time Range"
+      },
+      {
+         "text":"Price & Time Range"
+      }
+   ]
+ }

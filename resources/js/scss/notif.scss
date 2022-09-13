@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+$success_bg: #313131;
+$success_bg_hover: #383838;
+$success_f:  #a2a2a2;
+
+.toast {
+    top:35px;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    transition: .2s all;
+    border-radius: 8px !important;
+
+    font-family: 'Roboto';
+    font-size:15px;
+}
+
+.toast-icon {
+
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.toast-info {
+  background-color: rgba(255,166,60,.9);
+  color: white;
+
+  border-radius: 8px !important;
+
+  &:hover {
+    background: rgba(255,166,60,1)
+  }
+}
+
+.toast-success {
+  color: $success_f;
+}

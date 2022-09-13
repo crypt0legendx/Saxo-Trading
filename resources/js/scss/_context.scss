@@ -1,0 +1,94 @@
+@import 'vue-context/src/sass/vue-context.scss';
+
+
+.menu-item {
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    background-color: #515151;
+    color: #a7a7a7;
+    padding: 1px 0;
+  
+    .menu-item-text {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      height: 25px;
+      line-height: 25px;
+      margin-left: 2px;
+      margin-right: 10px;
+      font-size: 1rem;
+    }
+  
+    .menu-item-icon {
+      height: 25px;
+      color: #a7a7a7;
+    }
+  }
+  
+  .menu-item-icon {
+    padding: 5px 7px;
+    width: 30px;
+  }
+  .menu-item:not(.disabled):hover {
+    -webkit-transition: none;
+    transition: none;
+    background-color: #5e5e5e;
+    color: #ccc;
+  }
+  
+  // Expanded Menu
+  .menu-expanded {
+    position: absolute;
+    top: 0;
+    border-left: 1px solid #444;
+  }
+  
+.v-context, .v-context ul {
+    background-color: #515151 !important;
+    color: #a7a7a7 !important;
+    z-index: 99999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-y: initial;
+  
+    hr {
+      width: 100%;
+      margin: 0;
+      border: none;
+      border-top: 1px solid #444;
+    }
+  
+    .instrument-picker {
+      margin-top: -40px;
+    }
+  
+    .period-menu {
+      margin-top: -100px;
+    }
+  
+    .plot-menu {
+      margin-top: -50px;
+    }
+  
+    .tools-menu {
+      margin-top: -175px;
+    }
+  }

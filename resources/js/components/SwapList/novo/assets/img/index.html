@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #btng{
+            width : 250px;
+            padding:8px;
+            text-align: center;
+        }
+        #imgl{
+            transform: scaleY(1.5);
+            transform: rotate(4deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="relative overflow-hidden">
+        <img src="assets/img/custom-background.jpg" alt="image" class="absolute h-full w-full object-cover left-0 top-0">
+        <img src="assets/img/glare.png" alt="image" class="main__background_first absolute h-full w-full object-cover left-0 top-0 opacity-0">
+        <img src="assets/img/soffit.png" alt="image" class="main__background_second absolute h-full w-full object-cover left-0 top-0 opacity-0">
+        <div class="main__persons absolute top-1/2 -translate-y-1/2 right-[-37vw] w-[90vw] h-[53vw]">
+            <div class="main__person main__person_first">
+                <img src="assets/img/custom-men.png" alt="man">
+            </div>
+        </div>
+        <div class="container max-w-5xl relative min-h-screen flex flex-col">
+            <div class="py-5 text-center sm:text-left">
+                
+            </div>
+
+            <div class="relative gap-y-10 flex flex-col-reverse sm:flex-col items-start justify-center flex-grow py-5">
+                <div>
+                    <div class="main__titles mb-20">
+                        <div class="main__title">
+                            <a href="" class="logo inline-block">
+                                <img src="assets/img/bets.png" alt="" width="140" id="imgl">
+                            </a>
+                            <h6 class="bg-white text-[#ff4020] py-4 px-5 m-0 md:text-4xl lg:text-5xl xl:text-4xl">
+                                <span class="main__title-first">BONUS DE ATE</span>
+                                <span class="main__title-second font-bold"><strong>R$200</strong></span>
+                                <!-- <span class="main__title-third">RUB</span> -->
+                            </h6>
+                        </div>
+                        <div class="main__subtitle">
+                            <h6 class="bg-secondary text-white py-4 px-5 m-0 md:text-3xl lg:text-4xl xl:text-4xl w-fit">
+                                <span class="main__subtitle-first">APOSTA GRATIS ATE</span>
+                                <span class="main__subtitle-second font-bold">R$50</span>
+                                <!-- <span class="main__subtitle-third">RUB</span> -->
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-x-5 items-center">
+                        <div data-popup="registration" class="cursor-pointer btn btn-primary popup-btn popup-trigger" id="btng">GANHE UM BONUS</div>
+                        <a href="" class="underline hover:no-underline">CONDICOES DE BONUS</a>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-5 text-white sm:text-black">
+                    <div class="flex items-center gap-x-2">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg> -->
+                        <img src="assets/img/icons8.png" alt="ic8" width="30">
+                        <p class="text-white sm:text-black">Probabilidades altas</p>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg> -->
+                        <img src="assets/img/networking-64.png" alt="ic8" width="30">
+                        <p class="text-white sm:text-black">Jouge com Seguranca e Confianca</p>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg> -->
+                        <img src="assets/img/coins-64.png" alt="ic8" width="30">
+                        <p class="text-white sm:text-black">Pagamentos PIX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="registration">
+        <div class="modal-inner max-w-md w-full bg-white rounded overflow-hidden">
+            <div class="modal-head bg-primary p-2 uppercase relative">
+                <h5 class="m-0 text-white">Регистрация</h5>
+                <div class="popup-close absolute right-2 top-1/2 -translate-y-1/2 text-white cursor-pointer">
+                    <img target="_blank" src="https://icons8.com/icon/82640/coin-in-hand">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-body p-8">
+                <div class="relative -mb-6 z-10">
+                    <img src="assets/img/ball.png" alt="ball" class="inline-block">
+                </div>
+                <div class="main__titles mb-10">
+                    <div class="main__title">
+                        <h4 class="text-white bg-primary py-2 px-3 xl:text-3xl m-0 w-fit mx-auto">
+                            бонус до
+                            <span class="font-bold">30 000</span>
+                            RUB
+                        </h4>
+                    </div>
+                    <div class="main__subtitle">
+                        <h5 class="bg-secondary text-white py-2 px-3 m-0 w-fit mx-auto">
+                            Фрибет до
+                            <span class="font-bold">3 000</span>
+                            RUB
+                        </h5>
+                    </div>
+                </div>
+                <div class="">
+                    <h6 class="mb-4">Введите номер своего телефона</h6>
+                    <div class="">
+                        <div class="relative number-field">
+                            <img src="assets/img/russia.png" alt="flag" class="flag">
+                            <label for="phone">Номер телефона</label>
+                            <input required="" type="tel" id="phone" minlength="3" value="+7" maxlength="12">
+                        </div>
+                        <button class="btn btn-primary rounded w-full uppercase mt-4 text-sm py-3">Регистрация</button>
+                    </div>
+                    <h6 class="font-medium mt-4">Уже есть аккаунт? <a href="" class="underline text-primary">Войти</a></h6>
+                    <div class="border-t border-gray-200 grid gap-y-3 pt-4">
+                        <label class="text-xs flex items-center gap-x-2 text-black">
+                            <input type="checkbox" class="w-4 h-4 border rounded">
+                            Я согласен с <a href="" class="text-primary underline">правилами и условиями</a>
+                        </label>
+                        <label class="text-xs flex items-center gap-x-2 text-black">
+                            <input type="checkbox" class="w-4 h-4 border rounded">
+                            Получать рассылку об акциях по e-mail и sms
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const popup_trigger = document.querySelector('.popup-trigger');
+        const modal = document.querySelector('.modal');
+        if(popup_trigger){
+            popup_trigger.addEventListener('click',function(e){
+                const trigger = e.target.getAttribute("data-popup");
+                const modal_id = modal.getAttribute('id');
+                if(trigger === modal_id){
+                    modal.classList.add('active')
+                }
+            });
+        }
+
+        const popup_close = document.querySelector('.popup-close');
+        if(popup_close){
+            popup_close.addEventListener('click', function(){
+                modal.classList.remove('active');
+            })
+        }
+    </script>
+
+</body>

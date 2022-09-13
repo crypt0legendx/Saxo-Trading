@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "mysql2": "^2.2.5",
+    "socket.io": "^3.1.2",
+    "tradingview-scraper": "^0.3.0"
+  }
+}

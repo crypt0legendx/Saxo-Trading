@@ -1,0 +1,1454 @@
+@import './colors.scss';
+
+#app.light-theme {
+
+
+//windows topbar components
+.topbar-component .ddatepicker {
+    input {
+        background: #d4d4d4;
+        color: black;
+    }
+
+    input.disabled {
+        background: #d4d4d4 !important;
+        color: #515151 !important;
+    }
+}
+
+.topbar-component .search-btn-open {
+    background: #d4d4d4;
+    
+    i {
+        color: black !important;
+    }
+}
+
+.topbar-component .dsearch-input{
+    input, .input-group-text, .input-group-text i {
+        background: #d4d4d4 !important;
+        color: black !important;
+    }
+}
+
+.topbar-component .dbadge {
+    background: #d4d4d4;
+}
+
+.topbar-component.switch {
+    .left,.right {
+        background: #dadada !important
+    }
+
+    .active {
+        background: #d4d4d4 !important;
+        color: black !important;
+    }
+}
+
+.topbar-component.select {
+    select {
+     background: #d4d4d4 !important;
+     color: #686868 !important;
+
+      &::-webkit-scrollbar-track {
+        background-color: #c2c2c2;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: #868686;
+      }
+    }
+}
+
+.stock-entry {
+    &:hover {
+      background: #e2e6ed !important
+    }
+}
+
+//context menu not easycm
+.v-context, .menu-item, .v-context ul {
+    background: white !important;
+}
+
+.v-context {
+    hr {
+        border-top: 1px solid #d3d3d3 !important;
+    }
+
+    .menu-item-text {
+        color: #686868 !important;
+    }
+
+    .menu-item {
+        color: #686868 !important;
+
+        &:hover {
+            background: #eaeaea !important;
+            color: #252525 !important;
+        }
+    }
+
+    
+}
+
+
+.tvjs-x-window {
+    background: #f8f8f8;
+    color: #000000;
+    
+    .add-win-item {
+        color: #00000088
+    }
+
+
+    .add-win-item-desc {
+        color: #00000055
+    }
+}
+
+.vs__dropdown-menu::-webkit-scrollbar-thumb {
+    background: #e6e6e6 !important;
+}
+
+.watchlist .v-select .vs__dropdown-menu li:hover, .watchlist .v-select .vs__dropdown-menu li:focus, .watchlist .v-select .vs__dropdown-menu li:active, .watchlist .v-select .vs__dropdown-menu option:hover, .watchlist .v-select .vs__dropdown-menu option:focus, .watchlist .v-select .vs__dropdown-menu option:active
+{
+    background-color: #e3e3e3 !important;
+    color: #4a4a4a !important;
+}
+
+.watchlist .v-select .vs__dropdown-menu li, .watchlist .v-select .vs__dropdown-menu option {
+    border-bottom: 1px solid #e7e7e7 !important;
+}
+
+.watchlist .v-select .vs__dropdown-menu {
+    background:white !important;
+}
+
+.vs__dropdown-option {
+    color: #989898 !important;
+}
+
+.disabled-btn  {
+    cursor:not-allowed;
+    background: rgb(235,238,241) !important;
+    color: rgb(138,138,138) !important;
+}
+
+
+.watch {
+    background: #f6f6f6;
+}
+
+.watch.--placeholder:hover {
+    background: #e9e9e9 !important;
+}
+
+.watch.closed, 
+.order-control.closed {
+    user-select:none;
+    
+    .opensafter {
+        color: #a4a4a4;
+    }
+    .sell-zone, 
+    .buy-zone,
+    .sell, 
+    .buy {
+        cursor:not-allowed !important;
+        background: #e9e9e9 !important;
+        color: black !important;
+    }
+}
+
+      
+.disable-page {
+    background: white;
+    color: black;
+
+    svg {
+        stroke:black;
+        fill:black;
+    }
+}
+.splitter {
+    background: #b2b2b2;
+}
+    
+//graph
+
+.loadingScreen {
+    .loadingContent {
+      background:white;
+    }
+  
+  
+    .overlay {
+      svg {
+        stroke: black;
+      }
+    }
+  }
+
+.volume-select input {
+    color: #6b6b6b;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+}
+
+.chart-toolbar {
+    .order-control .spread {
+        background-color: $light_background_v1 !important;                    
+
+        em {
+            color: #000 !important;
+        }
+    }
+
+    .highlighted {
+        color: #626262 !important;
+        background: rgb(158 158 158 / 25%) !important;
+    }
+}
+
+.easy-cm-ul li {
+    background-color: rgb(255, 255, 255);
+    color: #777777
+}
+
+.buttons.veil i:hover {
+    color:black
+}
+  
+.chart-toolbar .buttons.veil section i:not(.checked):not(.selected):not(:hover) {
+    background-color: white
+}
+
+
+.z1 {
+    color: black !important;
+}
+
+
+.inst-info {
+    .header {
+      background: white;
+    }
+}
+
+.btn-group {
+    button {
+        border-radius: 0px !important;
+    }
+}
+
+.dropdown__ .list-content {
+    box-shadow: rgb(0 0 0 / 45%) 1px 1px 5px 0px !important;
+}
+
+#app .dropdown-menu {
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+#app .container .topbar .lnr-section .left-section .search_stocks_top {
+    border-radius: 50px !important;
+    transition: .1s ease-in-out !important;
+}
+
+
+    .list-content {
+
+        &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $light_background_v7 !important;
+        }
+    }
+
+    .b-form-datepicker {
+        background-color: $light_background_v6 !important;
+        border-radius: 2px;
+
+        .dropdown-menu {
+            height: 52px;
+            background-color: transparent !important;
+            border: none !important;
+
+            .b-form-date-calendar {
+                background-color: $light_background_v6 !important;
+                color: $light_font_color_v1 !important;
+
+                .b-calendar-inner {
+                    .b-calendar-header {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+
+                        .form-control {
+                            background-color: $light_background_v1 !important;
+                            font-size: 13px !important;
+                            line-height: 1.5 !important;
+                            border: none !important;
+                            color: $light_font_color_v1 !important;
+                            border-radius: none !important;
+                        }
+                    }
+                    .b-calendar-nav {
+                        .btn {
+                            color: $light_font_color_v1 !important;
+                            outline:none !important;
+                            outline-width: 0 !important;
+                            box-shadow: none !important;
+                            -moz-box-shadow: none !important;
+                            -webkit-box-shadow: none !important;
+                        }
+
+                        .btn:hover,
+                        .btn:focus {
+                            background: transparent;
+                        }
+
+                    }
+
+                    .b-calendar-grid,
+                    .b-calendar-grid-body {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+                        border: 1px solid $light_background_v3 !important;
+                        outline:none !important;
+                        outline-width: 0 !important;
+                        box-shadow: none !important;
+                        -moz-box-shadow: none !important;
+                        -webkit-box-shadow: none !important;
+                    }
+
+                    .b-calendar-grid-body .row .col span {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+                    }
+
+                    .b-calendar-grid-help {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+                    }
+                }
+            }
+        }
+
+        .form-control {
+            font-size: 13px !important;
+            line-height: 3;
+            color: $light_font_color_v1;
+            border: none !important;
+        }
+    }
+
+    .container {
+        .topbar {
+            background-color: $light_background_v1 !important;
+            color: $light_font_color_v1 !important;
+
+            .selectDropdown {
+                background-color: $light_background_v1 !important;
+                color: $light_font_color_v2 !important;
+
+                .search_stocks {
+                    background-color: $light_background_v6 !important;
+                    color: $light_font_color_v1 !important;
+                }
+
+                .list-content {
+                    background-color: transparent !important;
+
+                    .stock-entry {
+                        color: $light_font_color_v1 !important;
+
+                        
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background-color: $light_background_v7 !important;
+                    }
+                }
+            }
+
+            .btn-secondary:not(:disabled):not(.disabled):active,
+            .btn-secondary:not(:disabled):not(.disabled).active,
+            .show>.btn-secondary.dropdown-toggle {
+                background-color: $light_background_v3 !important;
+            }
+
+            .dropdown-menu {
+                background-color: $light_background_v3 !important;
+                color: $light_font_color_v1 !important;
+                border: none !important;
+                box-shadow: rgb(0 0 0 / 45%) 1px 1px 5px 0px !important;
+
+                .acc_type {
+                    color: #fff !important;
+                }
+
+                hr {
+                    border-color: #ebebeb !important;
+                }
+
+                .dropdown-item {
+                    font-size: 13px !important;
+                }
+
+                .dropdown-item:hover,
+                .dropdown-item:active {
+                    transition: .1s ease-in-out !important;
+                    background-color: $light_background_v2 !important;
+                }
+
+                * {
+                    color: $light_font_color_v1 !important;
+                }
+            }
+
+            .lnr-section {
+                .left-section {
+                    .compact {
+                        #dropdown-1 #dropdown-1__BV_toggle_ {
+                            color: $light_font_color_v1 !important;
+                        }
+                    }
+
+                    .group-item {
+                        span {
+                            color: $light_font_color_v1 !important;
+                        }
+                    }
+
+                    .search_stocks_top span>.v-icon {
+                        color: $light_font_color_v1 !important;
+                    }
+
+                    .search_stocks_top:hover {
+                        background-color: $light_background_v2 !important;
+                    }
+                }
+
+                .right-section {
+                    .b-dropdown .dropdown-toggle {
+                        color: $light_font_color_v1 !important;
+                    }
+
+                    .dropdown-toggle:hover {
+                        background-color: $light_background_v2 !important;
+                    }
+                }
+            }
+        }
+
+        .navbar {
+            background-color: $light_background_v2;
+            color: $light_font_color_v2;
+
+            .dropdown__ .list-content {
+                background-color: $light_background_v3 !important;
+                color: $light_font_color_v1 !important;
+
+                
+            }
+
+            .nav-entry {
+                &:hover {
+                    background-color: $light_background_v9 !important;
+                }
+
+                &:active {
+                    background-color: $light_background_v9 !important;
+                }
+
+                .nav-multiple-items {
+                    background-color: $light_background_v3 !important;
+                    color: $light_font_color_v1 !important;
+
+                    .search_stocks {
+                        background-color: $light_background_v6 !important;
+                        color: $light_font_color_v1 !important;
+                    }
+
+                    .list-content {
+                        background-color: transparent !important;
+
+                        .stock-entry {
+                            color: $light_font_color_v1 !important;
+
+                        
+                        }
+
+                        &::-webkit-scrollbar-track {
+                            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            background-color: $light_background_v7 !important;
+                        }
+                    }
+
+                    .nav-multile-item {
+                        color: $light_background_v1 !important;
+                    }
+
+                    .nav-multiple-item:hover {
+                        background-color: $light_background_v6 !important;
+                    }
+
+                    .nav-multiple-item:active {
+                        background-color: $light_background_v6 !important;
+                    }
+                }
+            }
+        }
+
+        #workspace {
+            background-color: $light_background_workspace !important;
+
+            .workspace-content {
+                background-color: $light_background_workspace !important;
+
+                .grid-empty,
+                .bigalert {
+                    background-color: $light_background_workspace !important;
+                    color: $light_font_color_v1 !important;
+                }
+
+                .window-frame {
+                    background-color: $light_background_v6 !important;
+
+                    .window-topbar {
+                        background-color: $light_background_v2 !important;
+
+                        .controls-left,
+                        .controls-right,
+                        .btn-ctrl {
+                            color: $light_font_color_v1 !important;
+                        }
+
+                        .controls-left,
+                        .controls-right {
+
+                            #orders-date-from,
+                            #orders-date-to {
+                                color: $light_font_color_v1 !important;
+                                background-color: $light_background_v3 !important;
+                            }
+
+                            #orders-active-status {
+                                background-color: $light_background_v3 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            #orders-btn-group {
+                                .orders-btn {
+                                    background-color: $light_background_v3 !important;
+                                }
+
+                                .act {
+                                    background: $light_background_v9 !important;
+                                    color: $light_font_color_v1 !important;
+                                    font-weight: 500 !important;
+                                }
+                            }
+
+                            #history-input,
+                            #orders-input {
+                                background-color: $light_background_v3 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            #history-select,
+                            #orders-select {
+                                background-color: $light_background_v3 !important;
+                                color: $light_font_color_v1 !important;
+
+                                option:hover {
+                                    background-color: $light_background_v2 !important;
+                                    color: $light_font_color_v1 !important;
+                                }
+                            }
+
+                            .dropdown .dropdown-toggle,
+                            .dropdown .dropdown-menu .dropdown-item {
+                                color: $light_font_color_v1 !important;
+                            }
+                        }
+
+                        #clock-timezone-select {
+                            background: $light_background_v6;
+                            color: $light_font_color_v1;
+                        }
+
+                        .dropdown-menu {
+                            background-color: $light_background_v3 !important;
+
+                            .dropdown-item {
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .dropdown-menu {
+                                background-color: $light_background_v3 !important;
+
+                                .dropdown-item {
+                                    color: $light_font_color_v1 !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .window_content {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+
+                        &::-webkit-scrollbar-track {
+                            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            background-color: $light_background_v7 !important;
+                        }
+
+                        .v-context .context-menu .menu-item .menu .instrument-picker {
+                            background-color: $light_background_v1 !important;
+                            color: $light_font_color_v2 !important;
+            
+                            .search_stocks {
+                                background-color: $light_background_v6 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+            
+                            .list-content {
+                                background-color: transparent !important;
+            
+                                .stock-entry {
+                                    color: $light_font_color_v1 !important;
+            
+                                   
+                                }
+            
+                                &::-webkit-scrollbar-track {
+                                    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+                                }
+            
+                                &::-webkit-scrollbar-thumb {
+                                    background-color: $light_background_v7 !important;
+                                }
+                            }
+                        }
+
+                        .datatable {
+
+                            th > .btn-close.closeall {
+                                color: #fff !important;
+                            }
+
+                            th, td {
+                                color: $light_font_color_v1;
+                            }
+
+                            th {
+                                background-color: $light_background_v2 !important;
+                            }
+
+                            td {
+                                border-bottom-color: $light_background_v3 !important;
+                                background-color: transparent !important;
+                            }
+                        }
+
+                        .client-positions {
+                            .date-now {
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .pos-container {
+                                .position_rab {
+                                    .instrument > span:first {
+                                        color: $light_font_color_v1 !important;
+                                    }
+                                }
+                            }
+                        }
+
+                        .selectDropdown {
+                            background-color: $light_background_v1 !important;
+                            color: $light_font_color_v2 !important;
+
+                            .search_stocks {
+                                background-color: $light_background_v6 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .list-content {
+                                background-color: transparent !important;
+
+                                .stock-entry {
+                                    color: $light_font_color_v1 !important;
+
+                                  
+                                }
+
+                                &::-webkit-scrollbar-track {
+                                    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+                                }
+
+                                &::-webkit-scrollbar-thumb {
+                                    background-color: $light_background_v7 !important;
+                                }
+                            }
+                        }
+
+                        .button-group-el,
+                        .btn-group {
+                            button {
+                                background-color: $light_background_v2 !important;
+                                color: $light_font_color_v2 !important;
+                                transition: none !important;
+                            }
+
+                            button.active {
+                                background-color: $light_background_v9 !important;
+                                color: $light_font_color_v1 !important;
+                                font-weight: bold !important;
+                            }
+                        }
+
+                        #bid-ask-settings {
+                            .cus-dark-input {
+                                background-color: $light_hover_bg !important;
+                                color: $light_font_color_v1 !important;
+                            }
+                        }
+
+                        .order-entry {
+                            .container .row .col div {
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .custom-control-label,
+                            .margin-require-market {
+                                color: $light_font_color_v1 !important;
+
+                                .cus-dark-input {
+                                    background-color: $light_hover_bg !important;
+                                    color: $light_font_color_v1 !important;
+                                }
+                            }
+
+                            #loss-profit-info {
+                                color: $light_font_color_v1 !important;
+                                .cus-dark-input {
+                                    background-color: $light_hover_bg !important;
+                                    color: $light_font_color_v1 !important;
+                                }
+                            }
+                        }
+
+                        .order-entry .watch .watch-topbar {
+                            color: $light_font_color_v1 !important;
+                        }
+
+                        .margin-require-market {
+                            color: $light_font_color_v1 !important;
+                        }
+
+                        .order-entry .watch .watch-body .buy-zone,
+                        .order-entry .watch .watch-body .sell-zone {
+                            background-color: $light_background_v2 !important;
+                        }
+
+                        .fav-cont .watch .watch-footer .cus-dark-input {
+                            background-color: #fff !important;
+                            color: $light_font_color_v3;
+                            border-radius: 0 !important;
+                            border: 1px solid #eaeef1 !important;
+
+                            .vs__dropdown-toggle .vs__selected-options > .vs__selected {
+                                color: #333 !important;
+                            }
+                        }
+
+                        .datatable {
+                            thead th {
+                                border-color: $light_background_v3 !important;
+
+                                .closeall {
+                                    background-color: #d81720 !important;
+                                    &:hover {
+                                        background-color: #da2b33 !important;
+                                    }
+                                }
+                            }
+
+                            thead th, thead td {
+                                background-color: $light_background_v2 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .btn-close {
+                                color: #fff !important;
+                            }
+                        }
+
+                        .container {
+                            color: $light_font_color_v1 !important;
+
+                            .center-clock {
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            #news-filter {
+                                #news-select {
+                                    background-color: $light_background_v6 !important;
+                                    color: $light_font_color_v1 !important;
+                                }
+                            }
+
+                            #news-data {
+                                .article-component {
+                                    color: $light_font_color_v1 !important;
+
+                                    .article-details {
+                                        color: $light_font_color_v1 !important;
+                                    }
+                                }
+                            }
+
+                            .instruments_search {
+                                background-color: $light_background_v3 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .v-list-item {
+                                background-color: $light_background_v3 !important;
+                                border-bottom: 1px solid #fff !important;
+                                color: $light_font_color_v1 !important;
+
+                                &:focus {
+                                    border-bottom: 1px solid #fff !important;
+                                }
+
+                                &:hover {
+                                    background-color: $light_background_v6 !important;
+                                }
+                            }
+
+                            .options {
+                                div .dropdown__ .list-content {
+                                    background-color: $light_background_v3 !important;
+                                    color: $light_font_color_v1 !important;
+
+                                    .stock-entry {
+                                        background-color: $light_background_v3 !important;
+                                        color: $light_font_color_v1 !important;
+                                    }
+
+                                
+                                }
+
+                                &:hover {
+                                    background-color: $light_background_v6 !important;
+                                }
+                            }
+
+                            .v-list-group {
+                                background-color: $light_background_v3 !important;
+                                color: $light_font_color_v1 !important;
+                            }
+
+                            .watch {
+                                .watch-topbar {
+                                    color: $light_font_color_v1 !important;
+
+                                    div .dropdown__ .list-content {
+                                        background-color: $light_background_v3 !important;
+                                        color: $light_font_color_v1 !important;
+
+                                        .stock-entry {
+                                            background-color: $light_background_v3 !important;
+                                            color: $light_font_color_v1 !important;
+                                        }
+
+                                     
+                                    }
+                                }
+
+                                .watch-body {
+                                    .spread {
+                                        background-color: $light_background_v1 !important;                    
+                                        color: #000 !important;
+                                    }
+
+                                    .sell-zone {
+                                        background-color: #d81720;
+                                        &:hover {
+                                            background-color: #da2b33;
+                                        }
+                                    }
+                                    .buy-zone {
+                                        background-color: #19a337;
+                                        &:hover {
+                                            background-color: #1eb940;
+                                        }
+                                    }
+                                }
+
+                                .cus-dark-input {
+                                    background-color: $light_background_v3 !important;
+                                    color: $light_font_color_v1 !important;
+                                }
+
+
+
+                                .icon {
+                                    color: $light_font_color_v1 !important;
+
+                                    &:hover, &:active, &:focus {
+                                        background-color: $light_background_v2 !important;
+                                    }
+                                }
+
+                                .icon:hover {
+                                    background-color: $light_background_v2 !important;
+                                }
+
+                                .watch-footer .custom-checkbox {
+                                    background-color: $light_background_v6 !important;
+                                    color: $light_font_color_v1 !important;
+                                }
+
+                                &:hover {
+                                    background-color: $light_background_v3 !important;
+                                }
+                            }
+
+                            .watch.no-hover-effect:hover {
+                                background: transparent !important;
+                              }
+
+                            .--placeholder {
+                                border: 1px solid $light_background_v3 !important;
+                                i { color: #000 !important; }
+                            }
+
+                            .watch .options:focus,
+                            .watch .options:active {
+                                background-color: transparent !important;
+                            }
+
+                            div#order-checkbox {
+                                border-top: 1px solid $light_background_v1 !important;
+                                border-bottom: 1px solid $light_background_v1 !important;
+                            }
+
+                            .row .col div,
+                            .margin-require-market {
+                                color: $light_font_color_v1 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal.light-theme {
+    .modal-dialog {
+        .modal-content {
+            background-color: $light_background_v4 !important;
+            color: $light_font_color_v1 !important;
+
+            .modal-header {
+                background-color: $light_background_v2 !important;
+
+                .selectDropdown {
+                    background-color: $light_background_v1 !important;
+                    color: $light_font_color_v2 !important;
+
+                    .search_stocks {
+                        background-color: $light_background_v6 !important;
+                        color: $light_font_color_v1 !important;
+                    }
+
+                    .list-content {
+                        background-color: transparent !important;
+
+                        .stock-entry {
+                            color: $light_font_color_v1 !important;
+
+                        
+                        }
+
+                        &::-webkit-scrollbar-track {
+                            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            background-color: $light_background_v7 !important;
+                        }
+                    }
+                }
+
+                .modal-title,
+                button.close {
+                    color: $light_font_color_v1 !important;
+                }
+            }
+
+            .modal-body::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+            }
+
+            .modal-body::-webkit-scrollbar-thumb {
+                background-color: $light_background_v7 !important;
+            }
+        }
+    }
+}
+
+#edit-position-modal.light-theme .modal-dialog .modal-content .modal-body,
+#pos-info-modal.light-theme .modal-dialog .modal-content .modal-body,
+#select-instrument-modal.light-theme .modal-dialog .modal-content .modal-body,
+#bid-ask-modal.light-theme .modal-dialog .modal-content .modal-body,
+#search-modal.light-theme .modal-dialog .modal-content .modal-body,
+#nlogs-modal.light-theme .modal-dialog .modal-content .modal-body,
+#system-info-modal.light-theme .modal-dialog .modal-content .modal-body,
+#acc-perf-modal.light-theme .modal-dialog .modal-content .modal-body,
+#alerts-modal.light-theme .modal-dialog .modal-content .modal-body,
+#confirm-modal.light-theme .modal-dialog .modal-content .modal-body,
+#time-zone-modal.light-theme .modal-dialog .modal-content .modal-body,
+#currency-modal.light-theme .modal-dialog .modal-content .modal-body,
+#settings-modal.light-theme .modal-dialog .modal-content .modal-body {
+    background-color: $light_background_v1 !important;
+    color: $light_font_color_v2 !important;
+
+    .selectDropdown {
+        background-color: $light_background_v1 !important;
+        color: $light_font_color_v2 !important;
+
+        .search_stocks {
+            background-color: $light_background_v6 !important;
+            color: $light_font_color_v1 !important;
+        }
+
+        .list-content {
+            background-color: transparent !important;
+
+            .stock-entry {
+                color: $light_font_color_v1 !important;
+
+        
+            }
+
+            &::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: $light_background_v7 !important;
+            }
+        }
+    }
+
+    .watch {
+        .watch-topbar {
+            color: $light_font_color_v1 !important;
+
+            .z1 {
+                color: $light_font_color_v1 !important;
+                font-weight: bold;
+            }
+
+            div .dropdown__ .list-content {
+                background-color: $light_background_v3 !important;
+                color: $light_font_color_v1 !important;
+
+                .stock-entry {
+                    background-color: $light_background_v3 !important;
+                    color: $light_font_color_v1 !important;
+                }
+
+        
+            }
+        }
+
+        .watch-body {
+            .spread {
+                background-color: $light_background_v1 !important;                    
+                color: #000 !important;
+            }
+
+            .sell-zone {
+                background-color: #d81720;
+                &:hover {
+                    background-color: #da2b33;
+                }
+            }
+            .buy-zone {
+                background-color: #19a337;
+                &:hover {
+                    background-color: #1eb940;
+                }
+            }
+        }
+
+        .cus-dark-input {
+            background-color: $light_background_v3 !important;
+            color: $light_font_color_v1 !important;
+        }
+
+
+
+        .icon {
+            color: $light_font_color_v1 !important;
+
+            &:hover, &:active, &:focus {
+                background-color: $light_background_v2 !important;
+            }
+        }
+
+        .icon:hover {
+            background-color: $light_background_v2 !important;
+        }
+
+        .watch-footer {
+            .disabled-btn {
+                cursor: not-allowed;
+                background: #ebeef1 !important;
+                color: #8a8a8a !important;
+            }
+        }
+
+        .watch-footer .custom-checkbox {
+            background-color: transparent !important;
+            color: $light_font_color_v1 !important;
+        }
+
+        &:hover {
+            background-color: $light_background_v3 !important;
+        }
+    }
+
+    .stock {
+        background-color: transparent !important;
+        color: $light_font_color_v1 !important;
+    }
+
+    .stock:hover {
+        background-color: $light_background_v3 !important;
+    }
+
+    .custom-control-label,
+    .margin-require-market {
+        color: $light_font_color_v1 !important;
+
+        .cus-dark-input {
+            background-color: $light_hover_bg !important;
+            color: $light_font_color_v1 !important;
+        }
+    }
+
+    .b-form-datepicker {
+        height: 52px;
+        background-color: $light_background_v6 !important;
+        border-radius: 2px;
+
+        .dropdown-menu {
+            background-color: transparent !important;
+            border: none !important;
+
+            .b-form-date-calendar {
+                background-color: $light_background_v6 !important;
+                color: $light_font_color_v1 !important;
+
+                .b-calendar-inner {
+                    .b-calendar-header {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+
+                        .form-control {
+                            background-color: $light_background_v1 !important;
+                            font-size: 13px !important;
+                            line-height: 1.5 !important;
+                            border: none !important;
+                            color: $light_font_color_v1 !important;
+                            border-radius: none !important;
+                        }
+                    }
+                    .b-calendar-nav {
+                        .btn {
+                            color: $light_font_color_v1 !important;
+                            outline:none !important;
+                            outline-width: 0 !important;
+                            box-shadow: none !important;
+                            -moz-box-shadow: none !important;
+                            -webkit-box-shadow: none !important;
+                        }
+
+                        .btn:hover,
+                        .btn:focus {
+                            background: transparent;
+                        }
+
+                    }
+
+                    .b-calendar-grid,
+                    .b-calendar-grid-body {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+                        border: 1px solid $light_background_v3 !important;
+                        outline:none !important;
+                        outline-width: 0 !important;
+                        box-shadow: none !important;
+                        -moz-box-shadow: none !important;
+                        -webkit-box-shadow: none !important;
+                    }
+
+                    .b-calendar-grid-body .row .col span {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+                    }
+
+                    .b-calendar-grid-help {
+                        background-color: $light_background_v1 !important;
+                        color: $light_font_color_v1 !important;
+                    }
+                }
+            }
+        }
+
+        .form-control {
+            font-size: 13px !important;
+            line-height: 3;
+            color: $light_font_color_v1;
+            border: none !important;
+        }
+    }
+
+    .container .row .col div {
+        color: $light_font_color_v1 !important;
+    }
+
+    .custom-control-label,
+    .margin-require-market {
+        color: $light_font_color_v1 !important;
+    }
+
+    #loss-profit-info {
+        color: $light_font_color_v1 !important;
+        .cus-dark-input {
+            background-color: $light_hover_bg !important;
+            color: $light_font_color_v1 !important;
+        }
+    }
+
+    .watch-topbar {
+        color: $light_font_color_v2 !important;
+    }
+
+    .watch-body {
+        .sell-zone {
+            background-color: #d81720;
+            &:hover {
+                background-color: #da2b33;
+            }
+        }
+        .buy-zone {
+            background-color: #19a337;
+            &:hover {
+                background-color: #1eb940;
+            }
+        }
+    }
+
+    #bid-ask-settings {
+        color: $light_font_color_v1 !important;
+        .cus-dark-input {
+            background-color: $light_hover_bg !important;
+            color: $light_font_color_v1 !important;
+        }
+    }
+
+    .search {
+        input {
+            background-color: $light_background_v2 !important;
+            color: $light_font_color_v1 !important;
+        }
+    }
+
+    .stocks-list {
+        &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $light_background_v7 !important;
+        }
+
+        .datatable {
+            border-color: transparent !important;
+            thead th {
+                background-color: $light_background_v2 !important;
+                color: $light_font_color_v1 !important;
+                border-color: transparent !important;
+            }
+
+            tbody tr {
+                background-color: transparent !important;
+                color: $light_font_color_v1 !important;
+
+                td {
+                    border-bottom: $light_background_v3 !important;
+                }
+            }
+        }
+    }
+
+    #clear-logs {
+        background-color: $cool_blue !important;
+        color: #fff;
+    }
+
+    .metric {
+        background-color: $light_background_v3 !important;
+
+        .metric-header .text-white {
+            font-weight: bold !important;
+        }
+        .metric-header,
+        .metric-body {
+            .text-white {
+                color: $light_font_color_v2 !important;
+            }
+        }
+    }
+
+    #alerts-div::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+      }
+
+      #alerts-div::-webkit-scrollbar-thumb {
+        background-color: $light_background_v7 !important;
+      }
+
+    #execution-component .execution-option .execution-option-btn  {
+        background-color: $light_background_v2 !important;
+        color: $light_font_color_v2 !important;
+        transition: none !important;
+    }
+
+    #execution-component .execution-option {
+        border-bottom-color: $light_background_v3 !important;
+    }
+
+    .btn-group {
+        button {
+            background-color: $light_background_v2 !important;
+            color: $light_font_color_v2 !important;
+        }
+
+        button.active {
+            background-color: $light_background_v9 !important;
+            color: $light_font_color_v1 !important;
+            font-weight: bold !important;
+        }
+    }
+
+    .line-div {
+        background-color: #f5f6f8 !important;
+    }
+
+    #alerts-div-searchbar {
+        .cus-dark-input {
+            background-color: $light_hover_bg !important;
+            color: $light_font_color_v1 !important;
+        }
+        #alerts-div-addbtn {
+            background-color: #19a337 !important;
+        }
+    }
+
+    #alerts-div {
+        .alert-comp {
+            .alert-curr-dropdown,
+            .cus-dark-input,
+            .email-notif {
+                background-color: $light_background_v2 !important;
+                color: $light_font_color_v2 !important;
+                transition: none !important;
+            }
+        }
+    }
+
+    .alert-modal-footer button.close-alerts {
+        background-color: $light_background_v2;
+        color: $light_font_color_v2;
+    }
+
+    .settings-dialog .setting-component {
+        border-bottom: 1px solid $light_background_v3 !important;
+        .sett-name,
+        .setting-value {
+            color: $light_font_color_v1 !important;
+        }
+        .sett-icon {
+            color: $light_font_color_v2 !important;
+        }
+    }
+    .settings-dialog .setting-component:active {
+        background-color: $light_hover_bg !important;
+    }
+}
+#confirm-modal.light-theme .modal-dialog .modal-content .modal-body {
+    p {
+        color: $light_font_color_v1 !important;
+    }
+
+    #btn-no {
+        color: $light_font_color_v1 !important;
+        background-color: $light_background_v3 !important;
+    }
+}
+
+#edit-position-modal.light-theme .modal-dialog .modal-content .modal-body {
+    .container .row .col {
+        .cus-dark-input {
+            background-color: $light_background_v2 !important;
+            color: $light_font_color_v1 !important;
+        }
+    }
+
+    .pos-info {
+        .col > .group {
+            h4 {
+                color: $light_font_color_v1 !important;
+            }
+        }
+    }
+
+    .watch {
+        .watch-topbar {
+            .btn-close-order {
+                font-size: 14px !important;
+            }
+        }
+        
+        .watch-body {
+            .buy-zone,
+            .sell-zone {
+                background-color: $light_background_v2 !important;
+            }
+        }
+    }
+}
